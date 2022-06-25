@@ -78,6 +78,7 @@ class Child extends Parent {
 ```
 
 아래는 main() 메서드의 바이트코드
+
 ![](image/week6/img_2.png)
 
 main 메서드를 실행하면 오버라이드된 메서드가 실행됨에도 불구하고, 바이트코드에는 Parent.hello가 찍히는걸 볼 수 있다.    
