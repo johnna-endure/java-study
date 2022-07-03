@@ -12,4 +12,5 @@ public class ObjectTest {
         String b = "b";
         assertThat(a.equals(b)).isTrue();
     }
+    
 }
